@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration page"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#123456"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:hint="Enter Username"
+        android:textSize="30sp"
+        android:id="@+id/Rusername"
+        android:textColor="#123456"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Password"
+        android:id="@+id/Rpassword"
+        android:textSize="30sp"
+        android:textColor="#123456"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm Password"
+        android:id="@+id/Rconfirmpassword"
+        android:textSize="30sp"
+        android:textColor="#123456"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="Submit"
+        android:textSize="30sp"
+        android:onClick="submit"/>
+
+</LinearLayout>

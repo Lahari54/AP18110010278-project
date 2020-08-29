@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="date" type="id" />
+    <item name="active" type="id" />
+    <item name="recover" type="id" />
+    <item name="death" type="id" />
+</resources>
